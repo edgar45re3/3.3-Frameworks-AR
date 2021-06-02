@@ -18,30 +18,13 @@
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.3.0/mdb.min.css" rel="stylesheet" />
 </head>
 
-
-<header>
-	<nav class="navbar fixed-top navbar-expand-lg navbar-light  scrolling-navbar">
-		<div class="container">
-			<div class="collapse navbar-collapse" id="navbarSupportedContent">
-				<ul class="navbar-nav mr-auto">
-					<li class="nav-item active">
-						<a class="nav-link"> <strong>EASF <span class="sr-only">(current)</span> </strong></a>
-						</li>
-						<li class="nav-item ">
-							<a class="nav-link" ><button class="button" id="b1">Avión</button></a>
-						</li>
-						<li class="nav-item active">
-							<a class="nav-link" ><button class="button" id="b2">Robot</button></a>
-						</li>
-						<li class="nav-item active">
-							<a class="nav-link" ><button class="button" id="b3">Pokemon</button></a>
-						</li>																
-				</ul>
-			</div>
-		</div>
-	</nav>
-</header>
+<div style='position: fixed; top: 10px; width:100%; text-align: center; z-index: 1;'>
+	<button type="button" class="btn btn-outline-primary btn-rounded  data-mdb-ripple-color="#000000" id="b1"> Avión </button>
+	<button type="button" class="btn btn-outline-primary btn-rounded  data-mdb-ripple-color="#000000" id="b2"> Robot </button>
+	<button type="button" class="btn btn-outline-primary btn-rounded  data-mdb-ripple-color="#000000" id="b3"> Pokemón </button>
+  </div>
   
+<meta name="apple-mobile-web-app-capable" content="yes">
 <body style='margin : 0px; overflow: hidden;'>
 
     <a-scene embedded arjs="debugUIEnabled: false;" vr-mode-ui="enabled: false">   
